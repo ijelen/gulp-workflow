@@ -10,6 +10,7 @@
     "gulp"
   ],
   "author": "Igor Jelen",
+  "repository": "https://github.com/ijelen/gulp-workflow.git",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.5",
