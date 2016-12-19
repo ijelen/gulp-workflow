@@ -15,7 +15,7 @@ var uncss = require('gulp-uncss');
 
 gulp.task('sass', function() {
 	return gulp.src('src/scss/**/*.scss')
-		.pipe(sass())
+		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('src/styles'))
 		.pipe(browserSync.stream());
 });
